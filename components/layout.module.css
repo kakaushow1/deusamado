@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.timeline {
+  display: grid;
+  gap: 20px;
+}
+.event {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2e8e1;
+}
+
+.butao{
+  background-color: brown;
+  text-decoration: none;
+  color: white
+}
